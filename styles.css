@@ -29,6 +29,7 @@ body{
 	font-family: "Eczar";
 	font-size: 48px;
 	font-style: bold;
+	line-height: 120%;
 }	
 
 @keyframes animation1 {
