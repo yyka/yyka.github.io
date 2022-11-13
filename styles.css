@@ -50,7 +50,7 @@ body{
 .footer{
 	background-color: #212121;
 	color: #fff;
-	padding: 6px 2vw;
+	padding: 6px 20px;
 	width:100vw;
 	position: fixed;
 	bottom: 0;
@@ -67,6 +67,7 @@ p{
 @media screen and (max-width: 800px) {
   .div-block {
      font-size: 36px;
+	 margin-top: 0px;
   }
   p {
 	 font-size: 18px;
