@@ -72,6 +72,10 @@ p{
   p {
 	 font-size: 18px;
   }
+  iframe {
+	 width: 320px;
+	 height: 180px;
+  }
 }
 
 a {
