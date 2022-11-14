@@ -21,16 +21,25 @@ body{
 	height: 700px;
 	background-color: #212121;
 	color: #ddd;
-	padding: 40px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
+	margin: auto;
 	max-width: 940px;
+}	
+
+h1 {
 	font-family: "Eczar";
 	font-size: 48px;
 	font-style: bold;
 	line-height: 120%;
-}	
+	margin: auto;
+	padding: 40px;
+}
+
+p{
+	font-family: "Alegreya";
+	font-size: 24px;
+	padding-left: 40px;
+	margin: auto;
+}
 
 @keyframes animation1 {
 	from {color: #ddd;}
@@ -59,13 +68,8 @@ body{
 	text-align: right;
 }
 
-p{
-	font-family: "Alegreya";
-	font-size: 24px;
-}
-
 @media screen and (max-width: 800px) {
-  .div-block {
+  h1 {
      font-size: 36px;
 	 margin-top: 0px;
   }
