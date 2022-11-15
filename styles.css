@@ -2,95 +2,112 @@
   box-sizing: border-box;
 }
 
-.body{
-	color: #333;
-}
-
-body{
-	//background: rgb(80,64,115);
-	//background: linear-gradient(20deg, rgba(80,64,115,1) 0%, rgba(150,121,184,1) 100%);
+body {
 	background-color: #181818;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	min-height: 100%;
 	margin:0;
-	font-size: 20px;
 }
 
-.div-block{
-	height: 700px;
+.div-block {
 	background-color: #212121;
 	color: #ddd;
-	margin: auto;
+	height: 700px;
 	max-width: 940px;
+	margin: auto;
 }	
 
 h1 {
-	font-family: "Eczar";
+	font-family: Palanquin Dark;
 	font-size: 48px;
-	font-style: bold;
-	line-height: 120%;
+	line-height: 1.2em;
 	margin: auto;
-	padding: 40px;
+	padding: 28px 40px;
 }
 
-p{
-	font-family: "Alegreya";
+p {
+	font-family: Palanquin;
 	font-size: 24px;
-	padding-left: 40px;
+	line-height: 1.4em;
+	padding: 10px 40px;
 	margin: auto;
 }
 
-@keyframes animation1 {
-	from {color: #ddd;}
-	to {color: #212121;}
+.DotAnim {
+	animation-name: DotAnim;
+	animation-duration: 1.8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	font-family: Helvetica;
 }
 
-@keyframes animation2 {
-	from {color: #ddd;}
-	to {color: #212121;}
+@keyframes DotAnim {
+		0% {color: #ddd;}
+		100% {color: #212121;}
 }
 
-@keyframes animation3 {
-	from {color: #ddd;}
-	to {color: #212121;}
-}
-
-.footer{
+.footer {
 	background-color: #212121;
 	color: #fff;
-	padding: 6px 20px;
-	width:100vw;
+	padding: 2px 0px;
+	width: 100vw;
 	position: fixed;
 	bottom: 0;
 	font-size: 16px;
-	font-family: "Roboto";
 	text-align: right;
 }
 
-@media screen and (max-width: 800px) {
-  h1 {
-     font-size: 36px;
-	 margin-top: 0px;
-  }
-  p {
-	 font-size: 18px;
-  }
-  iframe {
-	 width: 320px;
-	 height: 180px;
-  }
+.footer > a {
+	margin-right: 20px;
+}
+
+.socials {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+    vertical-align: middle;
 }
 
 a {
   color: #d3c3e3;
   text-decoration: none;
+  vertical-align: middle;
 }
 
 a:hover {
   color: #8e56c7;
 }
 
-a + a {
-    margin-left: 20px;
+a > img,
+a > span {
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+     font-size: 36px;
+  }
+  p {
+	 font-size: 22px;
+  }
+  iframe {
+	 width: 480px;
+	 height: 270px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+     font-size: 42px;
+	 padding: 20px
+  }
+  p {
+	 font-size: 22px;
+	 padding: 20px
+  }
+  iframe {
+	 width: 320px;
+	 height: 180px;
+  }
 }
