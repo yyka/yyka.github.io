@@ -140,7 +140,7 @@ a {
 	vertical-align: middle;
 }
 
-a:hover {
+.footer > a:hover {
 	color: #8e56c7;
 }
 
@@ -157,12 +157,20 @@ iframe {
 @media screen and (max-aspect-ratio: 4/3) {
   .div-block {
 	 max-width: 100vw;
+	 padding: 60px 5%;
   }
   iframe {
 	  width:80%;
   }
   .footer {
 	  max-width: 100%;
+	  padding: 0 0 0 25vw;
+	  font-size:18px;
+  }
+  .header {
+	  font-size:18px;
+	  padding: 0 5vw;
+	  width: 100%;
   }
 }
 
@@ -186,3 +194,9 @@ button:hover {
 
 .button1 {background-color: #04AA6D;} /* Green */
 .button2 {background-color: #008CBA;} /* Blue */
+
+nav {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
