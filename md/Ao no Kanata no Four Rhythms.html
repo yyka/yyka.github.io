@@ -12,10 +12,11 @@
 <meta property="og:image" itemprop="image" content="https://yt3.googleusercontent.com/kwJNCbRL1IpNWj9ytK9quZPwfdm8eaLbOoQmPMRVLE8B48HHt-9PWbUQR-PDkz00o0bcSUuDvw=s176-c-k-c0x00ffffff-no-rj" />
 <meta name="theme-color" content="#9873ba" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<link rel="icon" type="image/x-icon" href="img/icon.webp">
+<link rel="icon" type="image/x-icon" href="/img/icon.webp">
 
 <head>
 	<link rel="stylesheet" href="/styles.css">
+
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 	<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
 </head> 
@@ -36,7 +37,7 @@
 			
 			<a href="/translations.html">Translations</a>
 			
-			<button type="button" id="darkMode">Dark mode</button>
+			<button type="button" id="darkModeToggleButton">Dark mode</button>
 			
 			</nav>
 		
@@ -48,13 +49,26 @@
 	
 		<div style="padding: 40px 0">
 		
-		<h1>Blog</h1>
-		
-		<h2>Summary: Ao no Kanata no Four Rhythms</h2>
-		
-		<p><zero-md src="http://yyk.fr/md/aokana.md"></zero-md></p>
+			<h1>Blog</h1>				
 		
 		</div>
+		
+		<p>
+		
+			<zero-md id="app" src="/md/Ao no Kanata no Four Rhythms.md" manual-render></zero-md>
+			
+			<script>
+			
+			// Pass marked opts into render() function
+			customElements.whenDefined('zero-md').then(() => {
+				app.render({
+					breaks: true,
+				})
+			})
+			
+			</script>
+			
+		</p>
 
 	</div>
 
@@ -99,7 +113,7 @@
 			
 			<a onclick="mogu.play();">
 				
-				<img style="width:25vw;height:auto;" src="/img/okayu.webp"> 
+				<img style="width:24vw;height:auto;" src="/img/okayu.webp"> 
 		
 			</a>
 			
@@ -108,7 +122,7 @@
 		
 	</div>
 
-<script type="text/javascript" src="/script.js"></script>
+<script type="text/javascript" src="/darkmodetoggle.js"></script>
 	
 </body>
 

@@ -17,8 +17,6 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-	<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-	<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
 </head> 
 
 <body>
@@ -37,7 +35,7 @@
 			
 			<a href="translations.html">Translations</a>
 			
-			<button type="button" id="darkMode">Dark mode</button>
+			<button type="button" id="darkModeToggleButton">Dark mode</button>
 			
 			</nav>
 		
@@ -49,13 +47,28 @@
 	
 		<div style="padding: 40px 0">
 		
-		<h1>Blog</h1>
+			<h1>Blog</h1>
 		
-		<h2>Work in progress<span class="DotAnim">.</span><span class="DotAnim" style="animation-delay:0.25s;">.</span><span class="DotAnim" style="animation-delay:0.5s">.</span> </h2>
-		
-		<p><a href="md/Ao no Kanata no Four Rhythms.html">Summary: Ao no Kanata no Four Rhythms</a></p>
+			<h2>Here's some stuff I've written</span> </h2>
 		
 		</div>
+		
+		<p>
+		
+		⚠️ Dark mode is broken on blog pages (I'm struggling to fix it)
+		
+			<ul style="line-height:36px">
+		
+				<li><a href="md/Ao no Kanata no Four Rhythms.html">Summary: Ao no Kanata no Four Rhythms (VN / incomplete)</a></li>
+				
+				<li><a href="md/Oshi no Ko.html">Summary: Oshi no Ko (anime)</a></li>
+				
+				<li><a href="md/Shoujo Fujuubun.html">Summary: Shoujo Fujuubun (manga)</a></li>
+				
+			</ul>
+				
+				
+		</p>	
 
 	</div>
 
@@ -100,7 +113,7 @@
 			
 			<a onclick="mogu.play();">
 				
-				<img style="width:25vw;height:auto;" src="img/okayu.webp"> 
+				<img style="width:24vw;height:auto;" src="img/okayu.webp"> 
 		
 			</a>
 			
@@ -109,7 +122,7 @@
 		
 	</div>
 
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="/darkmodetoggle.js"></script>
 	
 </body>
 

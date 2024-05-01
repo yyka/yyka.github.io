@@ -3,9 +3,12 @@
 }
 
 a {
-	font-style: italic;
 	text-decoration: none;
-	
+	color: #e48af5
+}
+
+a:hover {
+	color: #b34fd2;
 }
 
 a > img,
@@ -46,19 +49,29 @@ button:hover {
 	background-color: rgba(251, 251, 251, 0.9);
 	color: #050316;
 	min-height: 100vh;
-	max-width:60vw;
+	max-width:60%;
 	margin: auto;
 	padding: 80px 80px;
+	z-index:-1;
+	font-family: Roboto, sans-serif;
 }	
-
-.dark .div-block{
-	background-color: rgba(15, 15, 15, 0.9);
-	color: #ffffff;
-}
 
 .dark {
 	background-image:
 		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://r4.wallpaperflare.com/wallpaper/718/324/982/nekomata-okayu-hololive-virtual-youtuber-purple-hoodie-room-hd-wallpaper-9df57835e3da3039c4d102ce0905996c.jpg");
+}
+
+.dark .div-block {
+	background-color: rgba(15, 15, 15, 0.9);
+	color: white;
+}
+
+.dark p {
+	color:white;
+}
+
+.dark .markdown-body {
+	color: #812ac8;
 }
 
 .DotAnim {
@@ -66,7 +79,7 @@ button:hover {
 	animation-duration: 1.8s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 }
 
 .footer {
@@ -87,21 +100,20 @@ button:hover {
 	text-decoration: none;
 	vertical-align: middle;
 	font-style: normal;
+	font-family: Arial, sans-serif;
 }
 
 .footer > a:hover {
-	color: #8e56c7;
+	color: #e48af5;
 }
 
 h1 {
-	font-family: Roboto;
 	font-size: 2.8em;
 	line-height: 1.2em;
 	margin: auto;
 }
 
 h2 {
-	font-family: Roboto;
 	font-weight: lighter;
 	font-size: 1.8em;
 	line-height: 1.2em;
@@ -117,6 +129,7 @@ h2 {
 	background-color: #8327ce;
 	display: flex;
 	justify-content: center;
+	z-index: 999;
 }
 
 .header {
@@ -184,9 +197,6 @@ p {
 	font-size: 1.4em;
 }
 
-p + ul {
-    margin-top: -24px;
-}
 
 .socials {
 	width: 20px;
