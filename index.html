@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 
 <html>
-
-<title>Yayaka's website</title>
-
-<meta property="og:site_name" content="ヤヤカ" />
-<meta property="og:url" content="http://yyk.fr">
-<meta property="og:title" content="Yayaka's website" />
-<meta property="og:description" content="Work in progress" />
-<meta property="og:type" content="website">
-<meta property="og:image" itemprop="image" content="https://yt3.googleusercontent.com/kwJNCbRL1IpNWj9ytK9quZPwfdm8eaLbOoQmPMRVLE8B48HHt-9PWbUQR-PDkz00o0bcSUuDvw=s176-c-k-c0x00ffffff-no-rj" />
-<meta name="theme-color" content="#9873ba" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<link rel="icon" type="image/x-icon" href="img/icon.webp">
-
-<head>
-	<link rel="stylesheet" href="/styles.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-</head> 
+	<head>
+		<title>Yayaka's website</title>
+		<meta property="og:site_name" content="ヤヤカ" />
+		<meta property="og:url" content="http://yyk.fr">
+		<meta property="og:title" content="Yayaka's website" />
+		<meta property="og:description" content="Work in progress" />
+		<meta property="og:type" content="website">
+		<meta property="og:image" itemprop="image" content="https://yt3.googleusercontent.com/kwJNCbRL1IpNWj9ytK9quZPwfdm8eaLbOoQmPMRVLE8B48HHt-9PWbUQR-PDkz00o0bcSUuDvw=s176-c-k-c0x00ffffff-no-rj" />
+		<meta name="theme-color" content="#9873ba" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="icon" type="image/x-icon" href="img/icon.webp">
+		<link rel="stylesheet" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+	</head> 
 
 <body>
 
@@ -29,13 +29,13 @@
 			
 			<nav>
 			
-			<a href="blog.html">Blog</a>
-			
-			<a href="videos.html">Videos</a>
-			
-			<a href="translations.html">Translations</a>
-			
-			<button type="button" id="darkModeToggleButton">Dark mode</button>
+				<a href="/blog.html">Blog</a>
+				
+				<a href="/videos.html">Videos</a>
+				
+				<a href="/translations.html">TL</a>
+				
+				<button type="button" class="darkmode-button" id="darkModeToggleButton">Dark mode</button>
 			
 			</nav>
 		
@@ -43,81 +43,88 @@
 		
 	</div>
 
-	<div class="div-block">
-	
-		<div style="padding: 40px 0">
+	<div class="main-div">
+
+		<div  id="page-content">
+
+			<div class="page-title">
+			
+				<h1>Welcome to Yayaka's website!</h1>
+			
+				<h2>Yayaka is learning web development. Work in progress, please be patient<span class="DotAnim">.</span><span class="DotAnim" style="animation-delay:0.25s;">.</span><span class="DotAnim" style="animation-delay:0.5s">.</span> </h2>
+			
+			</div>
 		
-			<h1>Welcome to Yayaka's website!</h1>
-		
-			<h2>Yayaka is learning web development. Work in progress, please be patient<span class="DotAnim">.</span><span class="DotAnim" style="animation-delay:0.25s;">.</span><span class="DotAnim" style="animation-delay:0.5s">.</span> </h2>
-		
-		</div>
-		
-		<p> I gotta start thinking of what to write here, ay? <br> Alright, let's start with a list of stuff I wanna add to the website:
+			<p>Welcome here, I'm happy to see you! <br> I'm still working on a bunch of stuff to make this website better, but here's a small list of things I want to add in the near future:</p>
 		
 			<ul>
-				<li>Local storage to save dark mode toggle</li>
-				<li>Functioning blog system so I can write stuff</li>
+				<li>Local storage to save dark mode toggle (done)</li>
+				<li>Functioning blog system so I can write stuff (half done)</li>
 				<li>Display carousel or something where I can showcase videos I edit or stuff I translate</li>
-				<li>Maybe a fancy burger menu thing too</li>
+				<li>Maybe a fancy burger menu thing too (priority for mobile layout)</li>
+				<li>Links to various platforms I use (MAL, HLTB, Mangadex...)</li>
 			</ul>
-		
-		</p>
-		
-	</div>
 
-	<div>
+			<p><i>Also, try clicking the Okayu in the bottom left corner of the page... You might hear something!</i></p>
 
-		<div class="footer">
-
-		<a href="https://twitter.com/yyka_" target="_blank">
-		
-			<img class="socials" src="img/TwitterLogo.webp"> 
-			
-			<span>Twitter<span>
-			
-		</a>
-
-		<a href="https://youtube.com/yayaka" target="_blank">
-		
-			<img class="socials" src="img/YoutubeLogo.webp"> 
-			
-			<span>Youtube</span>
-			
-		</a>
-
-		<a href="https://twitch.tv/yayaka" target="_blank">
-		
-			<img class="socials" src="img/TwitchLogo.webp">
-			
-			<span>Twitch</span>
-			
-		</a>
-		
-		</div>
-		
-		<div style="position:fixed;text-align:left;bottom:0px">
-			
-			<script>
-			
-				const mogu = new Audio('mogumogu.mp3');
-				mogu.volume = 0.3;
-			
-			</script>
-			
-			<a onclick="mogu.play();">
+			<span>
 				
-				<img style="width:24vw;height:auto;" src="img/okayu.webp"> 
+				<img class="okayun" src="/img/okayu_portrait.webp">
+
+			</span>
 		
-			</a>
-			
-			
 		</div>
+
+	</div>
+
+	<div class="footer">
+
+		<a class="socials" id="twitter-link" href="https://twitter.com/yyka_" target="_blank">
+		
+			<span class="twitter-logo"></span><img class="logo-socials" src="img/TwitterLogo.webp">
+			
+			@yyka_
+			
+		</a>
+
+		<a class="socials" id="youtube-link" href="https://youtube.com/yayaka" target="_blank">
+		
+			<span class="youtube-logo"></span><img class="logo-socials" src="img/YoutubeLogo.webp">
+			
+			@yayaka
+			
+		</a>
+
+		<a class="socials" id="twitch-link" href="https://twitch.tv/yayaka" target="_blank">
+		
+			<span class="twitch-logo"></span><img class="logo-socials" src="img/TwitchLogo.webp">
+			
+			yayaka
+			
+		</a>
 		
 	</div>
 
-<script type="text/javascript" src="/darkmodetoggle.js"></script>
+	<div class="okayu-footer">
+		
+		<script>
+		
+			const mogu = new Audio('/audio/mogumogu.mp3');
+			mogu.volume = 0.3;
+		
+		</script>
+		
+		<a onclick="mogu.play();">
+			
+			<img class="okayu-footer" src="/img/okayu.webp"> 
 	
+		</a>	
+		
+	</div>
+		
+<script type="text/javascript" src="/darkmodetoggle.js"></script>
+<script type="text/javascript" src="/blogcontent.js"></script>
+
 </body>
 
 </html>

@@ -7,10 +7,6 @@ a {
 	color: #e48af5
 }
 
-a:hover {
-	color: #b34fd2;
-}
-
 a > img,
 a > span {
 	vertical-align: middle;
@@ -27,7 +23,47 @@ body {
 	margin:0;
 }
 
-button {
+.back-button {
+	border: 3px;
+	padding: 8px 16px 8px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	margin: 20px 0 0;
+	cursor: pointer;
+	background-color: #ffffff;
+	border-radius: 16px;
+}
+
+.back-button:hover {
+	background-color: #faebff
+}
+
+.button {
+	color: #e48af5;
+}
+
+.dark body {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://r4.wallpaperflare.com/wallpaper/718/324/982/nekomata-okayu-hololive-virtual-youtuber-purple-hoodie-room-hd-wallpaper-9df57835e3da3039c4d102ce0905996c.jpg");
+}
+
+.dark .main-div {
+	background-color: rgba(15, 15, 15, 0.9);
+	color:white;
+}
+
+.dark .darkmode-button {
+	background-color: #ffffff;
+	color: black;
+}
+
+.dark .darkmode-button:hover {
+	background-color: #cfcfcf;
+}
+
+.darkmode-button {
 	border: none;
 	color: white;
 	padding: 10px 20px;
@@ -41,37 +77,8 @@ button {
 	border-radius: 8px;
 }
 
-button:hover {
+.darkmode-button:hover {
 	background-color: #000000
-}
-
-.div-block {
-	background-color: rgba(251, 251, 251, 0.9);
-	color: #050316;
-	min-height: 100vh;
-	max-width:60%;
-	margin: auto;
-	padding: 80px 80px;
-	z-index:-1;
-	font-family: Roboto, sans-serif;
-}	
-
-.dark {
-	background-image:
-		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://r4.wallpaperflare.com/wallpaper/718/324/982/nekomata-okayu-hololive-virtual-youtuber-purple-hoodie-room-hd-wallpaper-9df57835e3da3039c4d102ce0905996c.jpg");
-}
-
-.dark .div-block {
-	background-color: rgba(15, 15, 15, 0.9);
-	color: white;
-}
-
-.dark p {
-	color:white;
-}
-
-.dark .markdown-body {
-	color: #812ac8;
 }
 
 .DotAnim {
@@ -85,37 +92,24 @@ button:hover {
 .footer {
 	background-color: #191919;
 	color: #fff;
-	padding: 2px 0px;
+	padding: 6px 0px;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	font-size: 1.4em;
+	font-size: 1em;
 	display: flex;
 	justify-content: right;
 }
 
-.footer > a {
-	margin-right: 30px;
-	color: #e8e8ff;
-	text-decoration: none;
-	vertical-align: middle;
-	font-style: normal;
-	font-family: Arial, sans-serif;
-}
-
-.footer > a:hover {
-	color: #e48af5;
-}
-
 h1 {
-	font-size: 2.8em;
+	font-size: 2.4em;
 	line-height: 1.2em;
 	margin: auto;
 }
 
 h2 {
 	font-weight: lighter;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	line-height: 1.2em;
 	margin: auto;
 }
@@ -134,7 +128,7 @@ h2 {
 
 .header {
 	color: white;
-	font-size: 1.3em;
+	font-size: 20px;
 	font-family: Roboto;
 	height: 64px;
 	max-height: 64px;
@@ -163,18 +157,34 @@ iframe {
 
 @keyframes DotAnim {
 	0% {color: #000000;}
-	100% {color: #ddd;}
+	100% {color: #ffffff;}
 }
 
+.logo-socials {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.main-div {
+	background-color: rgba(251, 251, 251, 0.9);
+	color: #050316;
+	height: 100vh;
+	max-width:60%;
+	margin: auto;
+	padding: 64px 80px 60px;
+	z-index:-1;
+	font-family: Roboto, sans-serif;
+	overflow: auto;
+}	
+
 @media screen and (max-aspect-ratio: 4/3) {
-	.div-block {
-		max-width: 100vw;
-		padding: 60px 5%;
+	.back-button {
+		margin: 0;
 	}
-	.footer {
-		max-width: 100%;
-		padding: 0 0 0 25vw;
-		font-size:18px;
+	.socials {
+		margin-right: 0;
 	}
 	.header {
 		font-size:18px;
@@ -184,6 +194,13 @@ iframe {
 	iframe {
 		width:80%;
 	}
+	.main-div {
+		max-width: 100vw;
+		padding: 90px 5% 40px;
+	}
+	.okayu-footer {
+		display: none;
+	}
 }
 
 nav {
@@ -192,20 +209,54 @@ nav {
 	align-items: center;
 }
 
-p {
-	font-family: Arial;
-	font-size: 1.4em;
+.okayun {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 20px 0 0;
 }
 
+.okayu-footer {
+	position: fixed;
+	bottom: 0px;
+	width: 24vw;
+	height: auto;
+}
+
+p {
+	font-family: Roboto;
+	font-size: 1.2em;
+	margin: 0 0 20px;
+}
+
+.page-title {
+	padding: 40px 0;
+}
 
 .socials {
-	width: 20px;
-	height: 20px;
-	display: inline-block;
-    vertical-align: middle;
+	max-width: auto;
+	margin-right: 30px;
+	color: #ffffff;
+	text-decoration: none;
+	vertical-align: middle;
+	font-style: normal;
+	font-family: Roboto;
+}
+
+#twitch-link:hover {
+	color: rgb(168, 113, 248);
+}
+
+#twitter-link:hover {
+	color: rgb(41, 160, 237);
 }
 
 ul {
-	font-family: Arial;
-	font-size: 1.4em;
+	font-size:1.2em;
+	font-family: Roboto;
+}
+
+#youtube-link:hover {
+	color: rgb(255, 90, 90);
 }

@@ -1,8 +1,10 @@
 const darkModeToggleButton = document.getElementById("darkModeToggleButton");
+const mainBody = document.querySelector("body");
 
-function darkmodeTextToggle() {
+function darkModeStatus() {
 	if (darkModeToggleButton.innerHTML === "Dark mode") {
 		darkModeToggleButton.innerHTML = "Light mode";
+		darkModeToggleButton.classList.toggle("dark");
 		localStorage.setItem("isDarkMode", true);
 	} else { 
 		darkModeToggleButton.innerHTML = "Dark mode";
@@ -10,14 +12,14 @@ function darkmodeTextToggle() {
 	};
 }
 
-const mainBody = document.querySelector("body");
-	darkModeToggleButton.addEventListener("click", () => {
+$(document).ready(function(){
+	$(document).on("click", "#darkModeToggleButton", function () {
 		mainBody.classList.toggle("dark");
-		darkmodeTextToggle();
-		
+		darkModeStatus();
 	});
+});
 
 if (localStorage.getItem("isDarkMode") === "true") {
     mainBody.classList.toggle("dark");
-	darkmodeTextToggle();
-} 
+	darkModeStatus();
+	}
