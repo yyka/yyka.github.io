@@ -9,4 +9,4 @@ Gone are the times of multiple HTML pages with duplicated headers and footers, t
 
 I'm not sure what to do with this website quite yet, but I really love looking at the cool things people do with theirs and I would love to make something nice myself. Stay tuned!
 
-<img class="okayun" src="{DOC_ROOT}/static/img/okayu_portrait.webp" />
+<img style="display: block; margin: auto; max-width: 60%;" src="{DOC_ROOT}/static/img/okayu_portrait.webp" />

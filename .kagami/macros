@@ -1,15 +1,12 @@
 unset DOC_ROOT
 
-# footnote
-FOOTNOTE="© 2022-$(date '+%Y') Yayaka -- All Rights Reserved."
+YEAR="$(date '+%Y')"
 
-# metadata
 AUTHOR="Yayaka"
 SITE_TITLE="Yayaka's website"
 SITE_DESCRIPTION="Having fun with lines of code"
 SITE_HOSTNAME="https://yyk.fr"
 ACCENT_COLOR="#9873ba"
 
-# styling
 SEPARATOR='<div style="height: 40px" ></div>'
-THEMATIC_BREAK='<hr style="width: 40%;" />'
+THEMATIC_BREAK='<hr style="width: 40%; margin-right: 0;" />'
