@@ -273,9 +273,10 @@ nav > * {
 .okayu-footer {
 	position: fixed;
 	bottom: 0px;
-	width: 24vw;
+	width: 28vw;
 	height: auto;
   	filter: drop-shadow(6px 6px 6px rgba(0,0,0,0.2));
+	z-index: 11;
 }
 
 p {
