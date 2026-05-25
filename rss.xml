@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<lastBuildDate></lastBuildDate>
+<ttl>1</ttl>
+<generator>kagami v0.6.5 — static microblog processor</generator>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<atom:link href="https://yyk.fr/rss.xml" rel="self" type="application/rss+xml"/>
+<link>https://yyk.fr</link>
+<title>Yayaka's website</title>
+<description>Having fun with lines of code</description>
+</channel>
+</rss>
