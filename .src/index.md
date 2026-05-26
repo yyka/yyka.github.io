@@ -12,6 +12,13 @@ Stay tuned~!
 
 <img style="display: block; margin: auto; max-width: 60%;" src="{DOC_ROOT}/static/img/okayu_portrait.webp" alt="ogayu" />
 
-<a style="display: block; margin-left: auto; margin-right: 0; width: fit-content; padding-top: 20px;" href="https://count.getloli.com/">
-	<img style="width: auto; margin-right: 0; max-height: 100px;" src="https://count.getloli.com/@yayaka?theme=booru-lisu" alt="moe counter" />
-</a>
+{THEMATIC_BREAK}
+
+<div style="display: flex; width: 100%; justify-content: space-between; align-items: flex-end;">
+	<a href="https://jigsaw.w3.org/css-validator/check/referer">
+		<img style="padding: 0; max-height: 80px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS validation" />
+	</a>
+	<a href="https://count.getloli.com/">
+		<img style="filter: brightness(1.5); width: auto; margin: 0 0 0 auto; max-height: 80px;" src="https://count.getloli.com/@yayaka?theme=booru-lisu" alt="moe counter" />
+	</a>
+</div>
