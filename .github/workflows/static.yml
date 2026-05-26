@@ -1,0 +1,55 @@
+name: build and delploy
+
+on:
+  push:
+    branches: ["main"]
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v6
+
+      - name: Install System Dependencies (cmark-gfm)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmark-gfm coreutils
+
+      - name: Install Kagami Compiler
+        run: |
+          curl -sSLo kagami https://raw.githubusercontent.com/microsounds/kagami/main/kagami
+          chmod +x kagami
+
+      - name: Build website with Kagami
+        run: ./kagami
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: '.'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
