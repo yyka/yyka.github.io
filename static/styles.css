@@ -209,6 +209,7 @@ iframe {
 	height: 20px;
 	display: inline-block;
     vertical-align: middle;
+	fill: currentColor;
 }
 
 .main-div {
@@ -284,9 +285,7 @@ p {
 }
 
 .socials {
-	max-width: auto;
 	color: #ffffff;
-	text-decoration: none;
 	vertical-align: middle;
 	font-style: normal;
 }
@@ -318,7 +317,7 @@ p {
 }
 
 #twitter-link:hover {
-	color: rgb(66, 180, 255)
+	color: rgb(66, 180, 255);
 }
 
 #youtube-link:hover {
