@@ -1,3 +1,8 @@
+<!-- created 2024/01/03 -->
+<!-- updated 2024/03/20 -->
+
+{TOC}
+
 # Summary: Ao no Kanata no Four Rhythms
 
 ## Episode 1 - Teach Me How To Fly
@@ -101,7 +106,7 @@ The two shake hands, and it's time for Rika's farewells... except Satouin jumps 
 Both school clubs bow to each other and part ways, marking the end of the training camp.
 Aoi escorts them back home, and asks how things went. Asuka asks Masaya if he can train her when they get back home, and manages to convince Misaki and Mashiro too.
 
-{KOTOKO - Infinite Sky}
+<KOTOKO - Infinite Sky>
 
 New characters get introduced.
 

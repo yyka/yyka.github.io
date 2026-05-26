@@ -30,7 +30,7 @@ jobs:
 
       - name: Install Kagami Compiler
         run: |
-          curl -sSLo kagami https://raw.githubusercontent.com/microsounds/kagami/main/kagami
+          curl -sSLo kagami https://raw.githubusercontent.com/microsounds/kagami/refs/heads/master/kagami
           chmod +x kagami
 
       - name: Build website with Kagami
@@ -45,6 +45,7 @@ jobs:
           path: '.'
 
   deploy:
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

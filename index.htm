@@ -1,3 +1,48 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="theme-color" content="#9873ba" />
+		<meta name="description" content="Having fun with lines of code" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="alternate" type="application/rss+xml" href="/rss.xml" title="Yayaka's website" />
+		<link rel="shortcut icon" type="image/x-icon" href="/static/img/icon.webp" />
+		<link rel="stylesheet" type="text/css" href="/static/styles.css" />
+		<script type="text/javascript" src="/static/scripts/darkmodetoggle.js"></script>
+		<title>Home - Yayaka's website</title>
+	</head>
+
+<body>
+	<div class="header-container">
+		<div class="header">
+			<div class="home">
+				<a href="/index.htm">Yayaka's website</a>
+			</div>
+			<nav>
+				<a href="/notes/index.htm">Notes</a>
+				<a href="/videos.htm">Videos</a>
+				<a href="/translations.htm">TL</a>
+				<button type="button" class="darkmode-button" id="darkmodebtn">Dark mode</button>
+			</nav>
+		</div>
+	</div>
+
+	<div class="main-div" id="page-content">
+<!--kagami v0.6.5 — static microblog processor-->
+<h1>Home<span id="Home"></span></h1>
+<h2>Welcome to Yayaka’s website! Work in progress, please be patient<span class="DotAnim">.</span><span class="DotAnim" style="animation-delay:0.25s;">.</span><span class="DotAnim" style="animation-delay:0.5s">.</span><span id="Welcome-to-Yayakas-website-Work-in-progress-please-be-patient..."></span></h2>
+<p>Hey there, I’m happy to see you!</p>
+<p>I just finished reworking this website using <a href="https://github.com/microsounds/kagami">kagami</a>. Gone are the times of multiple HTML pages with duplicated headers and footers, this is now a proper website! (kind of)</p>
+<p>I am not sure what to do with this website quite yet, but I want to turn it into something nice. I really love looking at the cool things people do with their personal websites and it inspires me to try and do the same. I’ve been really busy lately with my studies, but I hope to find some time here and there to work on this project.</p>
+<p>Stay tuned~!</p>
+<img style="display: block; margin: auto; max-width: 60%;" src="/static/img/okayu_portrait.webp" alt="ogayu" />
+<a style="display: block; margin-left: auto; margin-right: 0; width: fit-content; padding-top: 20px;" href="https://count.getloli.com/">
+	<img style="width: auto; margin-right: 0; max-height: 100px;" src="https://count.getloli.com/@yayaka?theme=booru-lisu" alt="moe counter" />
+</a>
+<div class="index">
+</div>
 
 	</div>
 
@@ -5,7 +50,7 @@
 		<div class="footer-left"></div>
 
 		<div class="footer-center">
-			&#169; 2022-{YEAR} {AUTHOR} — Built with <a href="https://github.com/microsounds/kagami">kagami v0.6.5</a>
+			&#169; 2022-2026 Yayaka — Built with <a href="https://github.com/microsounds/kagami">kagami v0.6.5</a>
 		</div>
 
 		<div class="footer-right">
@@ -44,11 +89,11 @@
 
 	<div class="okayu-footer">
 		<script>
-			const mogu = new Audio('{DOC_ROOT}/static/audio/mogumogu.mp3');
+			const mogu = new Audio('/static/audio/mogumogu.mp3');
 			mogu.volume = 0.3;
 		</script>
 		<a onclick="mogu.play();">
-			<img class="okayu-footer" src="{DOC_ROOT}/static/img/okayu.webp" alt="okayu footer" />
+			<img class="okayu-footer" src="/static/img/okayu.webp" alt="okayu footer" />
 		</a>
 	</div>
 </body>

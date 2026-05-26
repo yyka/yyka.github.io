@@ -1,3 +1,6 @@
+<!-- created 2024/01/14 -->
+<!-- updated 2024/01/14 -->
+
 # Summary: Oshi no Ko
 
 ## Episode 1
