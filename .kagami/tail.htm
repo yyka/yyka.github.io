@@ -43,11 +43,8 @@
 	</div>
 
 	<div style="position: fixed; bottom: 0px; max-width: 28vw; height: auto; filter: drop-shadow(6px 6px 6px rgba(0,0,0,0.2)); z-index: 99;">
-		<script>
-			const mogu = new Audio('{DOC_ROOT}/static/audio/mogumogu.mp3');
-			mogu.volume = 0.3;
-		</script>
-		<a style="filter: none; display: block;" onclick="mogu.play();">
+		<audio id="mogu-audio" src="{DOC_ROOT}/static/audio/mogumogu.mp3" preload="auto"></audio>
+		<a style="filter: none; display: block; cursor: pointer;" onclick="const mogu = document.getElementById('mogu-audio'); mogu.volume = 0.1; mogu.play();">
 			<img style="display: block; max-width: 100%;" src="{DOC_ROOT}/static/img/okayu.webp" alt="okayu footer" />
 		</a>
 	</div>

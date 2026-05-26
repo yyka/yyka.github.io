@@ -16,7 +16,7 @@ function toggleTheme(btn) {
 document.onreadystatechange = () => {
 	if (document.readyState === "interactive") {
 		const btn = document.getElementById("dark-mode-button");
-		const savedState = localStorage.getItem('darkMode') !== 'true';
+		const savedState = localStorage.getItem('darkMode') === 'true';
 
 		applyTheme(savedState, btn)
 
