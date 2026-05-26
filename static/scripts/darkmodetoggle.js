@@ -1,33 +1,29 @@
-function darkMode() {
+function applyTheme(isDark, btn) {
+	document.documentElement.classList.toggle('dark', isDark);
 
-	function toggleMode(btn) {
-		if (btn.innerHTML === "Dark mode") {
-			btn.innerHTML = "Light mode";
-			btn.classList.toggle("dark");
-			localStorage.setItem("isDarkMode", true);
-		} else {
-			btn.innerHTML = "Dark mode";
-			localStorage.setItem("isDarkMode", false);
-		};
+	if (btn) {
+		btn.innerHTML = isDark ? "Light Mode" : "Dark Mode";
 	}
+}
 
-	const darkModeBtn = document.getElementById("darkmodebtn");
-	const mainBody = document.querySelector("body");
+function toggleTheme(btn) {
+	const nextDarkState = localStorage.getItem('darkMode') !== 'true';
+	localStorage.setItem('darkMode', nextDarkState);
 
-	if (localStorage.getItem("isDarkMode") === "true") {
-		mainBody.classList.toggle("dark");
-		toggleMode(darkModeBtn);
-	}
-
-	darkModeBtn.addEventListener('click', () => {
-		mainBody.classList.toggle("dark");
-		toggleMode(darkModeBtn);
-	})
-
+	applyTheme(nextDarkState, btn);
 }
 
 document.onreadystatechange = () => {
 	if (document.readyState === "interactive") {
-		darkMode()
+		const btn = document.getElementById("dark-mode-button");
+		const savedState = localStorage.getItem('darkMode') !== 'false';
+
+		applyTheme(savedState, btn)
+
+		if (btn) {
+			btn.addEventListener('click', () => {
+				toggleTheme(btn);
+			});
+		}
 	}
 }

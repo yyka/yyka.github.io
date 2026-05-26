@@ -33,7 +33,7 @@ Masaya joins the other members, and Misaki and Mashiro tease him. Masaya decides
 In order to establish personalized training routines for each player, Masaya asks if anyone has any experience playing FC. Misaki replies that she has, and picks Fighter as her favorite play style. Masaya explains the three play styles are Fighter, All-Rounder and Speeder. Fighters try to touch their opponents' back to score points, while Speeders try to avoid their opponents by racing between the four buoys. All-Rounders go for both.
 In order to explain the rules to Asuka, Masaya has Shion and Misaki face off in a practice match. They first show how a Speeder wins, then how a Fighter does. Masaya explains the different ways they can score points and win, while Misaki is bullying Prez.
 
-> *Misaki's activation key being 飛ぶニャン was so damn cute*
+> Misaki's activation key (飛ぶニャン) was so dang cute
 
 <img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_GtD2APmSQM.webp" />
 
@@ -41,7 +41,7 @@ Onto the topic of the clubroom, Shion explains that getting one will be impossib
 The next day, Aoi calls out Asuka to show her a special video, one of Masaya playing FC back when he was younger.
 Another day, Masaya is on his way to a store to buy Grav Shoes with his friends. He calls out to a girl sweeping in front of the store, **Minamo**, the little sister of the store manager. They then enter the store, "Shirase Sky Sports". They meet **Shirase**, the store manager, who gives an explanation of the different types of shoes. Grav Shoes emit anti-gravitons that form a layer around the body, called a "membrane". Making different parts thicker or thinner allows gravity to pull you forward. The way this membrane is tuned differs between the different types of shoes: Speeder shoes are thinner at the top to allow for higher speeds, while Fighter ones are high sensitivity all over, allowing players to move in quick bursts at the cost of a lower speed. Balancers allow to fine tune the way the membrane reacts, making it possible for it to be sensitive only on one side of the body for example, allowing for quick movements only when moving to the right.
 
-> *Holy, that one line when Misaki tries on the Laevateinns Grav Shoes is so damn funny lmao*
+> That one line when Misaki tries on the Laevateinns Grav Shoes is a work of art
 
 <img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_qc5EmvCU2o.webp" />
 
@@ -50,7 +50,7 @@ Later that day, back at home, Masaya's internet doesn't work. It leads to him fi
 The next day, as he arrives at the clubroom, Masaya finds the girls changing themselves in the bus and decides to peep at them.
 
 
-> *This is so cringe*
+> Unbearable levels of cringe
 
 <img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_cJi3la619k.webp" />
 
@@ -194,7 +194,7 @@ After that, they go check the brackets, and Mashiro finds herself facing against
 
 Shirase also shows up, seemingly knowing but hiding something about that mysterious player. He explains he's there to sell souvenirs like T-shirts, towels and beginner Grav Shoe kits at a stall. Masaya asks him to come watch their matches so he can give him advice on how to coach the girls. Arika shows up just after Shirase leaves, declaring war against Mashiro. She's soon joined by Mayu, who "scolds" her for being impolite towards Misaki.
 
-> *holy say gex wtf is happening between those two*
+> holy say gex wtf is happening between those two
 
 <img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_bsuSXFHbHz.webp" />
 

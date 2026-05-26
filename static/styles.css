@@ -1,3 +1,24 @@
+:root {
+	--primary-color: #8327ce;
+	--secondary-color: #191919;
+	--accent-color: #ae5bbe;
+	--text-color: #050316;
+	--text-color-alt: #616161;
+	--text-background-color: rgba(251, 251, 251, 0.9);
+	--text-background-color-alt: rgba(0, 0, 0, 0.05);
+	--background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/static/img/wallpaper.webp");
+}
+
+:root.dark {
+	--primary-color: #6c3894;
+	--accent-color: #e48af5;
+	--text-color: #f5f5f5;
+	--text-color-alt: #adadad;
+	--text-background-color: rgba(30, 30, 30, 0.9);
+	--text-background-color-alt: rgba(255, 255, 255, 0.05);
+	--background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/wallpaper.webp");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -55,7 +76,7 @@ body {
     max-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/static/img/wallpaper.webp");
+    background-image: var(--background-image);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -95,17 +116,24 @@ li {
 
 a {
     text-decoration: none;
-    color: #e48af5;
+    color: var(--accent-color);
 }
 
 a:hover {
     filter: brightness(1.3);
 }
 
-img {
-    max-width: 75%;
-    display: block;
-    margin: 1em auto;
+blockquote {
+	margin: 0 1em;
+	border-left: 4px solid var(--primary-color);
+	padding: 10px 20px;
+	color: var(--text-color-alt);
+    background-color: var(--text-background-color-alt);
+    font-style: italic;
+}
+
+blockquote p {
+    margin: 0;
 }
 
 iframe {
@@ -113,7 +141,7 @@ iframe {
     aspect-ratio: 16 / 9;
 }
 
-.main-div {
+.main-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -123,17 +151,22 @@ iframe {
     width: 100%;
     margin: auto;
     padding: 40px;
-    background-color: rgba(251, 251, 251, 0.9);
-    color: #050316;
+    background-color: var(--text-background-color);
+    color: var(--text-color);
     overflow-y: auto;
     overflow-x: hidden;
 }
 
-.header-container {
+.main-content img {
+	max-width: 75%;
+    display: block;
+    margin: 1em auto;
+}
+
+.top-bar {
     flex: 0 0 64px;
     width: 100%;
-    color: #050316;
-    background-color: #8327ce;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,7 +216,7 @@ nav > * {
 .footer {
     flex: 0 0 32px;
     width: 100%;
-    background-color: #191919;
+    background-color: var(--secondary-color);
     color: #fff;
     z-index: 10;
     display: flex;
@@ -234,55 +267,29 @@ nav > * {
     width: 100%;
 }
 
-.okayu-footer {
-    position: fixed;
-    bottom: 0px;
-    width: 28vw;
-    height: auto;
-    filter: drop-shadow(6px 6px 6px rgba(0,0,0,0.2));
-    z-index: 11;
-}
-
 #twitter-link:hover { color: rgb(66, 180, 255); }
 #youtube-link:hover { color: rgb(255, 0, 0); }
 #twitch-link:hover  { color: rgb(168, 113, 248); }
 
-.button {
-    color: #e48af5;
-}
-
-.darkmode-button {
+.dark-mode-button {
+	color: white;
+	background-color: #371d49;
     border: none;
-    color: white;
     padding: 10px 1vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    background-color: #371d49;
     border-radius: 12px;
 }
 
-.darkmode-button:hover {
+.dark-mode-button:hover {
     background-color: #000000;
 }
 
-body.dark {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/wallpaper.webp");
-}
-
-body.dark .main-div {
-    background-color: rgba(30, 30, 30, 0.9);
-    color: white;
-}
-
-body.dark .darkmode-button {
+.dark-mode-button.dark {
+	color: black;
     background-color: #ffffff;
-    color: black;
-}
-
-body.dark .darkmode-button:hover {
-    background-color: #cfcfcf;
 }
 
 .DotAnim {
@@ -293,8 +300,8 @@ body.dark .darkmode-button:hover {
 }
 
 @keyframes DotAnim {
-    0%   { color: #000000; }
-    100% { color: #ffffff; }
+    0%   { color: var(--text-color); }
+    100% { color: var(--text-background-color); }
 }
 
 @media screen and (max-aspect-ratio: 1/1) {
@@ -308,7 +315,7 @@ body.dark .darkmode-button:hover {
     iframe {
         width: 80%;
     }
-    .main-div {
+    .main-content {
         max-width: 100vw;
         padding: 90px 5% 40px;
     }
