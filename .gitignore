@@ -1,3 +1,5 @@
-!/.kagami/*.htm
 *.htm
 *.xml
+!/.kagami/*.htm
+!/.mal/*.htm
+!/.hltb/*.htm
