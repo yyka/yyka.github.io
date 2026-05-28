@@ -15,16 +15,16 @@
 		<div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
 			<div class="window">
 				<div class="window-title" id="last-fm-status">{LAST_FM_STATUS}</div>
-					<div class="pad-col">
-						<a id="last-fm-link" href="{LAST_FM_URL}" target="_blank" rel="noopener noreferrer">
-							<p id="last-fm-song" style="text-align: center;">{LAST_FM_SONG}</p>
-						</a>
-						<a id="last-fm-link" href="{LAST_FM_URL}" target="_blank" rel="noopener noreferrer">
-							<img id="last-fm-image" style="display: block; width: 100%; margin: 0;" src="{LAST_FM_IMAGE}" alt="album cover" />
-						</a>
-						<br />
-					</div>
+				<div class="pad-col">
+					<a id="last-fm-link" href="{LAST_FM_URL}" target="_blank" rel="noopener noreferrer">
+						<p id="last-fm-song" style="text-align: center;">{LAST_FM_SONG}</p>
+					</a>
+					<a id="last-fm-link" href="{LAST_FM_URL}" target="_blank" rel="noopener noreferrer">
+						<img id="last-fm-image" style="display: block; width: 100%; margin: 0;" src="{LAST_FM_IMAGE}" alt="album cover" />
+					</a>
+					<br />
 				</div>
+			</div>
 			<div class="grid">
 				<div class="window">
 					<div class="window-title">Visitors</div>

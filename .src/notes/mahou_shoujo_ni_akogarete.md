@@ -3,10 +3,7 @@
 
 # Summary: Mahou Shoujo ni Akogarete
 
-Aliases:
-  - Gushing over Magical Girls
-
-MAL: https://myanimelist.net/anime/54722/Mahou_Shoujo_ni_Akogarete
+<div class="pad-row pad-col">
 
 ## Episode 1: A Villainess Leader is Born?!
 
@@ -34,8 +31,6 @@ Haruka spots and befriends Korisu while having fun with children at a park. Late
 
 ## Episode 7: Azure in Trouble
 
-
-
 ## Episode 8: Here Comes the Lord Squad
 
 ## Episode 9
@@ -45,3 +40,5 @@ Haruka spots and befriends Korisu while having fun with children at a park. Late
 ## Episode 11
 
 ## Episode 12
+
+</div>

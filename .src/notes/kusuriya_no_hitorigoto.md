@@ -3,10 +3,7 @@
 
 # Summary: Kusuriya no Hitorigoto
 
-Aliases:
-  - The Apothecary Diaries
-
-MAL: https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto
+<div class="pad-row pad-col">
 
 ## Episode 1: Maomao
 
@@ -105,3 +102,5 @@ Maomao challenges Lakan to a BO5 chess duel. If she loses, she will go back to l
 Lakan has to choose a courtesan to buy at the Verdigris house. He decides to pick Meimei as she has been nice to him, but she suddenly opens the door to the shack where Fengxian lives. Lakan hears her singing and runs to her, deciding to purchase her while playing Go. Back at the palace, Maomao explains to Jinshi that she doesn't hate Lakan and that he probably was the one tricked by Fengxian instead, as there are ways to prevent pregnancy. That's why she lost her mind when things didn't work out as she intended. However, Maomao does dislike him, especially his laziness which could have allowed her to get the resurrection medicine. Later, Maomao receives a letter from Meimei explaining who bought who and containing a beautiful shawl. Having to dance for the festivities, Maomao goes outside that night to dance on the palace walls. Jinshi surprises her and almost makes her fall before catching her. Maomao's wound reopens, so he carries her in his arms once again. She choses this moment to ask him for the Ox bezoar.
 
 Daily life resumes at the palace, and Maomao once again gets wrapped up in new adventures.
+
+</div>

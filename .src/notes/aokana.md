@@ -3,7 +3,7 @@
 
 # Summary: Ao no Kanata no Four Rhythms
 
-<div class="window-content">
+<div class="pad-row pad-col">
 
 ## Episode 1 - Teach Me How To Fly
 

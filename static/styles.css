@@ -236,7 +236,7 @@ ul, ol {
     font-family: 'NanumMyeongjo';
     font-size: 96px;
     text-align: center;
-    padding: 40px;
+    padding: 40px 0;
 }
 
 .home a:hover {
@@ -296,6 +296,11 @@ ul, ol {
 @media screen and (max-aspect-ratio: 3/4) {
     .page-content {
         grid-template-columns: 1fr;
+    }
+
+    .home {
+        font-size: 72px;
+        padding: 28px 0;
     }
 
     nav {
