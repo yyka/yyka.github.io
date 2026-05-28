@@ -46,7 +46,7 @@
 			<div class="window">
 				<div class="window-title">Credits</div>
 				<div class="pad-col">
-					<p style="margin-bottom: 7px;">Inspiration:</p>
+					<p style="margin-bottom: 7px;">Inspired by these cool ppl</p>
 					<div class="grid" style="grid-template-rows: repeat(2, 1fr); gap: 7px;">
 						<a href="https://microsounds.github.io" target="_blank" rel="noopener noreferrer">
 							<img style="width: 100%; display: block;" src="https://microsounds.github.io/static/button/badge.gif" alt="https://microsounds.github.io/" />
@@ -55,14 +55,11 @@
 							<img style="width: 100%; display: block;" src="https://kafu.ovh/imgs/buttons/junko.png" alt="https://kafu.ovh" />
 						</a>
 					</div>
-					<p style="margin: 7px;">
-						Cursor:
-						<a href="https://www.rw-designer.com/cursor-set/pink-flower-kawaii" target="_blank" rel="noopener noreferrer">
-							Orisnismy88
-						</a>
+					<p style="margin: 7px 0px;">
+						Cursor by <a href="https://www.rw-designer.com/cursor-set/pink-flower-kawaii" target="_blank" rel="noopener noreferrer">Orisnismy88</a>
 					</p>
 					<p style="margin-top: 7px; line-height: 1.2em;">
-						Website built w/ <a href="https://github.com/microsounds/kagami" target="_blank" rel="noopener noreferrer">kagami</a>
+						Website built with <a href="https://github.com/microsounds/kagami" target="_blank" rel="noopener noreferrer">kagami</a>
 					</p>
 				</div>
 			</div>
