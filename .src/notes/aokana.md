@@ -1,9 +1,9 @@
 <!-- created 2024/01/03 -->
 <!-- updated 2024/03/20 -->
 
-{TOC}
-
 # Summary: Ao no Kanata no Four Rhythms
+
+<div class="window-content">
 
 ## Episode 1 - Teach Me How To Fly
 
@@ -33,26 +33,25 @@ Masaya joins the other members, and Misaki and Mashiro tease him. Masaya decides
 In order to establish personalized training routines for each player, Masaya asks if anyone has any experience playing FC. Misaki replies that she has, and picks Fighter as her favorite play style. Masaya explains the three play styles are Fighter, All-Rounder and Speeder. Fighters try to touch their opponents' back to score points, while Speeders try to avoid their opponents by racing between the four buoys. All-Rounders go for both.
 In order to explain the rules to Asuka, Masaya has Shion and Misaki face off in a practice match. They first show how a Speeder wins, then how a Fighter does. Masaya explains the different ways they can score points and win, while Misaki is bullying Prez.
 
-> Misaki's activation key (飛ぶニャン) was so dang cute
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_GtD2APmSQM.webp" />
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_GtD2APmSQM.webp" />
+> Misaki's activation key (飛ぶニャン) was so dang cute
 
 Onto the topic of the clubroom, Shion explains that getting one will be impossible as all of them have already been taken by other clubs by now. Misaki mentions seeing something on the cliff while coming back from the practice match, which turns out to be an old, abandoned bus. They decide to make it their clubroom and start cleaning it. As they're done and about to leave, Mashiro asks about whether men and women play together in the same category, to which Masaya replies that they do. This leads to a comical exchange about trying to touch Mashiro's breasts during a match. Anyway, Masaya explains that it's impossible due to the energy fields created by the shoes repelling each other, then also explains that while it's possible to make the Anti-Gravitation devices smaller, it is impossible to make it bigger, which is why there are no flying cars. The shoes have a max weight limit of 300kg. They then wrap up the day.
 The next day, Aoi calls out Asuka to show her a special video, one of Masaya playing FC back when he was younger.
 Another day, Masaya is on his way to a store to buy Grav Shoes with his friends. He calls out to a girl sweeping in front of the store, **Minamo**, the little sister of the store manager. They then enter the store, "Shirase Sky Sports". They meet **Shirase**, the store manager, who gives an explanation of the different types of shoes. Grav Shoes emit anti-gravitons that form a layer around the body, called a "membrane". Making different parts thicker or thinner allows gravity to pull you forward. The way this membrane is tuned differs between the different types of shoes: Speeder shoes are thinner at the top to allow for higher speeds, while Fighter ones are high sensitivity all over, allowing players to move in quick bursts at the cost of a lower speed. Balancers allow to fine tune the way the membrane reacts, making it possible for it to be sensitive only on one side of the body for example, allowing for quick movements only when moving to the right.
 
-> That one line when Misaki tries on the Laevateinns Grav Shoes is a work of art
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_qc5EmvCU2o.webp" />
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_qc5EmvCU2o.webp" />
+> That one line when Misaki tries on the Laevateinns Grav Shoes is a work of art
 
 In the end, Misaki goes for Invade's Leaveteinns, Mashiro gets the Siamese from Small Grove and Asuka follows Masaya's advice to pick the Hien type 4, an updated model of his original Hien type 1. To Asuka's request, they then go back to school to try out their new shoes. With the help of Misaki, Masaya shows Asuka how it feels to touch someone's back and score a point. Misaki then tells Mashiro to do a loop, which she fails miserably and spins down out of control, leading to a comical interaction between her trying to hide her panties and Masaya telling her to spread her arms and legs to regain control of her balance.
 Later that day, back at home, Masaya's internet doesn't work. It leads to him fixing internet on Rika's pc, which had been using his own router's connection up until now.
 The next day, as he arrives at the clubroom, Masaya finds the girls changing themselves in the bus and decides to peep at them.
 
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_cJi3la619k.webp" />
 
 > Unbearable levels of cringe
-
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_cJi3la619k.webp" />
 
 After that... incident, they decide on their goal: aiming to reach top 8 in the prefectural tournament! But first come the basics. They all spent the day training over the sea, trying to fly in a straight line then to touch each others' back. As they were about to call it a day, Aoi joins them to inform the club that she has scheduled a training camp as well as practice matches with Takafuji academy over the Golden Week. Masaya spends the evening lost in thoughts, wondering how he will get the team to the level it needs to reach to perform during matches. He reassures Asuka that she isn't forcing this role onto him and that he's into this for the long haul. She promises herself that she can become better, as she caresses her hairpin, which she describes as her lucky charm.
 
@@ -60,32 +59,34 @@ After that... incident, they decide on their goal: aiming to reach top 8 in the 
 
 Fast forward to the Golden Week. Guided by Aoi, they all head to the training camp in Takafuji Academy. Aoi explains that it has an Administrative Council instead of a Student Council, which practically runs the school, giving the students a lot of power. It's also a huge school, the main branch being located on the mainland.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_WqAfEQNyuh.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_WqAfEQNyuh.webp" />
+
 <br />
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_ArNc6YaVpi.webp" />
+
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_ArNc6YaVpi.webp" />
 
 Aoi and Masaya discuss why they're flying to their destination instead of using other means of transport, and she gives a few different reasons including being short on time, no funds and wanting to see how her student's apprentices were doing after a week of training. Asuka butts in to ask about the school they're heading to, as Aoi forgot to continue her explanation. After Madoka interrupting them again, Masaya flies off to the side and decides to continue Aoi's explanation to Asuka in her stead, when they suddenly arrive at the school, located on Fukuru Island, 5.4km south-west of Kunahama Island, 90 min away by ferry.
 They discuss their reasons for not attending this school.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_iz1nWBMhwp.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_iz1nWBMhwp.webp" />
 
 As they expand on the whole "Administrative Council" thing, the school's FC club arrives, spearheaded by Satouin. Rika is also part of the group. The club's leader, **Kazunari Shoudou**, known as the strongest Skywalker of this generation, is absent on urgent business.
 Aoi's introduction leads to many fangirls screaming, as she used to be pretty famous among girls. After Masaya's introduction, she gives him a ton of credit, raising everyone's expectations for him, and announces she's leaving everything in his hands as she will be going back until the end of the training camp.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_z7hGfucGgr.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_z7hGfucGgr.webp" />
 
 Masaya puts the spotlight on Shion, who was feeling down after Aoi made Masaya sound like the club leader, cheering him up by complimenting his muscles and leadership. Everyone then introduce themselves.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_CWrC8pYmDG.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_CWrC8pYmDG.webp" />
 
 After the introductions are over, the girls go to change, leaving Masaya alone. Rika then approaches him and leads him away from the other students to talk. She asks him why they chose to do that training camp now, a mere two months away from the summer tournament, which will be the last one for all the seniors, just to train a club that just formed. As Masaya is thinking of a reply to give, they get interrupted by Shindou. He suddenly reveals Masaya's past as a legendary Skywalker. As Rika wasn't aware, he asks why she was pulling him away then. They come up with a cover up explanation of her asking for his autograph, forcing him to sign her treasured handkerchief, before just telling him the truth as he was pointing an inconsistency. After that, Shindou reveals the training camp is actually happening with the consent of both schools as he just wanted an excuse to meet Masaya. Although that may have been a lie, as he brushes off the question when Masaya asks how long he had been listening in.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_RNTMQjF0DN.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_RNTMQjF0DN.webp" />
 
 They then get back, and the girls, who are done changing, join Masaya. The group heads to Takafuji's practice ground, at the beach. Masaya and Shindou decide on the schedule for their training session, and Shindou asks Satou to start the training while they are discussing. After a funny interaction, Satouin reveals her name is actually Reiko Satou, as per her birth certificate. But for some reason, she just likes the "in" part and fights for it.
 After the practice, Masaya massages Shion when Shindou joins them and shares his plan to peep on the girls with them.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_49EW3frHNq.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_49EW3frHNq.webp" />
 
 As they were about to plan their strategy, Madoka calls Masaya, asking him where they are. She was about to enter the bath and had a bad feeling. They hang up, except Madoka actually forgets and Masaya decides to listen in. After mundane talk, Satouin joins them and offers to service them. The 2nd and 3rd year all run away, leaving only our 5 heroines and the Takafuji freshmen. The senior relate their past experience, with Satouin washing their body using her bare hands then soaping up her body... Suddenly. Masaya snaps back to reality as Shindou calls for him, and ends the call. As for the peeping, it had been cancelled as Shion was getting too into the idea.
 During the night, Masaya gets up, goes outside, and starts flying. Rika notices him.
@@ -100,7 +101,7 @@ The match starts one-sided, with Shindou overwhelming Misaki in both speed and t
 After that, skipping Mashiro's match, it's time for Asuka's. She is against Rika. During the match, Rika keeps throwing Asuka off with techniques effective against beginners, but Asuka gradually learns how to regain her balance mid-air. Then, as she had overshot Rika and was about to get her back touched, she manages to pull an Airkick Turn, get behind Rika and score a point.
 This marks the end of the three day training camp. Shindou asks Masaya to apologize on his behalf to Misaki, and is expecting great things from both her and Asuka.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_wh78w40iU0.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_wh78w40iU0.webp" />
 
 The two shake hands, and it's time for Rika's farewells... except Satouin jumps first, to thank him for the training camp. It's finally Ichinose's turn, and they repeat last night's situation by both apologizing at the same time, except Rika says thank you while Masaya says sorry. They set the record straight regarding what happened the night before, and end up easing their relationship.
 Both school clubs bow to each other and part ways, marking the end of the training camp.
@@ -110,20 +111,20 @@ Aoi escorts them back home, and asks how things went. Asuka asks Masaya if he ca
 
 New characters get introduced.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/Aokana_PJQyQTX33t.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/Aokana_PJQyQTX33t.webp" />
 
 ## Episode 4 - I Want To Fight Too
 
 As everyone is gathered before practice, Madoka gives Masaya summarized data on all members. After some chatter and banter, they have a meeting. As midterms are approaching, club activities will have to be suspended 3 days prior to the date of the exams. Aoi explains that if you fail them and then the make-up exams, you will be banned from club activities. Seeing the reactions of Mashiro and Asuka, he offers to form a study group. After getting on Mashiro's bad side, Masaya fails to bring up that he wants her to change playstyles.
 Later, during practice, Mashiro injures her foot when landing. Madoka inspects it, but it doesn't seem to be anything too serious.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_lywmbCNaPg.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_lywmbCNaPg.webp" />
 
 As Madoka and Mashiro leave to the hospital, Masaya shares with the others his concerns that Mashiro might hate her. Misaki then decides to leave, probably to go check on Mashiro. Masaya (CHOICE) decides to let her go and the three members left resume practice.
 After practice, Masaya surprises Misaki as she was practicing flying on her own, fighting against an imaginary opponent. After explaining why he showed up out of the blue, Masaya bows and asks her to help him befriend Mashiro. Misaki says they should just keep talking until they get along, as trust is something you build over time. However, with the promise of free udon, she does accept to pull out her last resort. After stopping by a convenience store to buy pudding, she brings Masaya to an udon place where they meet **Botan**, then go upstairs. Masaya unknowingly enters what happens to be Mashiro's room. He hurriedly leaves before she finds out. He stops by to apologize to Botan, who reveals she's actually Mashiro's mother (he thought she was her sister). Mashiro then arrives. Mashiro asks to talk with Masaya, prompting Misaki to leave. Mashiro appears to actually be more shy than cold, and the two agree to try and get closer to each other. Mashiro gives Masaya her PSQ in order to use video games as a way to bring the two closer together.
 Back at hone, Masaya finishes studying and pulls out the PSQ. He thinks back to their discussion.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_E0dzAx0QSX.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_E0dzAx0QSX.webp" />
 
 It makes him realizes he hasn't gotten absorbed into anything since back when he quit FC, including his job as a coach, and he decides to try and change that, using the PSQ as an opportunity to leave his comfort zone. As he goes to check a guide online, he notices a mail on his pc. After a few back-and-forth, Rika, the one he was conversing with, calls out to him through the window. They mention MonEat, and Rika says he should ask Mashiro for advice instead of her.
 The next day, Masaya does just that. After class, everyone decide to play MonEat together in the club room, marking the start of day 1 of the "After Practice Gaming Club". The evening after day 2, Masaya coaches Rika to help her practice FC, to return the favor for what happened during the training camp. However, as the tournament is inching closer, he (CHOICE) decides to stop coaching her soon, as it would be detrimental to his own club's players.
@@ -137,7 +138,7 @@ As they're flying back home together, Masaya also asks Asuka if she likes FC, to
 The next day, they all go to the orthopedic clinic with Mashiro to do a last check-up, and she announces that her foot is all healed. Tipped off by Madoka, Masaya reveals to Asuka that he knows she made a wish for Mashiro's recovery in exchange for sweets, using it as a way to lose weight at the same time.
 That evening, as they are going back, Mashiro asks Masaya to keep his promise and play MonEat with her. After they arrive at the flying terminal, they are met by **Arika Okoze**, a freshman at Shitou Suisan Academy, who got the nickname Tanny because of Mashiro. She explains she saw two people she knows with their PSQ, and decided to join them. After playing for a while, they notice someone forgot a bag at the flying terminal. As Mashiro is about to take off to bring them, Okoze jumps ahead, grabbing the bag, and flies straight towards their owner with an immaculate form. As she goes back, she confirms Masaya and Mashiro's suspicions by announcing she joined her school's FC club. The two also tell her they're part of their school's FC club, but the group gets interrupted by the appearance of **Mayu Ganeko**, a sophomore at Shitou Suisan Academy. They take off after Arika calls Mayu "big sis".
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_DGTTlMrIM7.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_DGTTlMrIM7.webp" />
 
 Afterwards, as Masaya is about to get home, Misaki appears and drags him to her house to carry the exercise ball she'd mentioned a while ago to their club room. They end up playing with the two exercises balls for a while in Misaki's room.
 The next afternoon, during meeting, Masaya brings up changing Mashiro's playstyle. To his surprise, she immediately accepts. As everyone is cheerfully bantering, the Kunohama Academy FC Club is finally starting to feel like a real team.
@@ -148,55 +149,57 @@ The rainy season has come to Shitou City, making it hard to impossible for the F
 A few days later, Masaya meets Aoi in the hallway after school. She sees right through him and tells him to let them have more fun. That evening, Masaya looks at old photo album and finds pictures of him during practice that he'd forgotten about. After calling Rika to ask for her opinion, he decides to switch up the program by having the girls play tag as practice. Mashiro first tries to catch Misaki, then it's Misaki's turn to catch Asuka. As Misaki is about to catch her, Asuka manages to do a backflip over her attacker and land behind her, much to everyone's surprise, including Asuka. In order to make the best use of her physical abilities, Masaya (CHOICE) decides to keep this at the back of his mind for now. They then wrap up practice for the day.
 That Saturday, Masaya accompanies Asuka as she walks her dog, then treats her to a parfait. After leaving the café, they bump into Minamo, who quickly takes her leave after mistaking them for a couple. They then bump into Misaki, who joins them. They decide to hit up an arcade.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_KAVkiplDBa.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_KAVkiplDBa.webp" />
 
 Misaki and Masaya end up playing a dance rhythm game, then winning plushies at an UFO catcher.
 After spending the day with them, Masaya goes shopping on his own. Except he ends up going out at the same time as Rika, and for the same destination. After doing the trip together, as they were about to part ways at the mall so as not to look suspicious, they are met by Saitouin who was there to check the advancement of renovations to the Skywall. They end up going shopping together, then eating fried chicken Rika bought.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Pasted image 20240317183126.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Pasted image 20240317183126.webp" />
 
 Saitouin then leaves, shouting her unusual activation sequence: "Grant thy azure blessing to mine wings!". After that, Rika and Masaya fly home, having seemingly grown a bit closer. As Rika leaves, Minori appears and reveals she had been following them around since they first flew off. In exchange for overlooking it, she reveals Masaya that Kairyou Academy had apparently gotten their hand on a genius player, before running away.
 A few days later, it's time for finals. Everyone managed to pass this time around, with Asuka showing incredible improvement compared to mid-terms, unlike Mashiro. The girls decide to do a girls' night, so Masaya flies back home. That's when he spots a girl with silver hair, who says he looks like someone she knows, before leaving,
 The next day, it's time for practice to resume. Masaya asks the girl to bring their swimsuits, in order to practice at the beach.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_FstDvKl2bN.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_FstDvKl2bN.webp" />
+
 <br />
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_4f7cf75V4S.webp" />
+
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_4f7cf75V4S.webp" />
 
 Masaya invites Shirase to teach them about accident prevention.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_CDQPi5vs0m.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_CDQPi5vs0m.webp" />
 
 He explains that everyone who does sky sports has to attend a mandatory yearly safety course. It's a relic from back when Grav Shoes weren't as safe and could fail mid-air, but it never lead to any fatal injuries as each shoe is the other's fail-safe system, since the output remains the same regardless of whether you have one or two of them. That's why Shirase has them practice falling into the ocean, by deactivating their shoes 2m above it. He has a permit that allows him to get unlock codes from the government, allowing to bypass the mechanism that prevents people from deactivating Grav Shoes mid-flight. He also explains they need to fall feet first, clench their butt and protect their crotch.
 They then practice falling. First Prez, then Mashiro, Misaki, and Asuka.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_61GbrhwXI5.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_61GbrhwXI5.webp" />
 
 Then, it's water gun battle royale time.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_wMkgZ62viQ.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_wMkgZ62viQ.webp" />
 
 After that, they spent their days practicing for the upcoming tournament, that was now a week away. After some round robins practice matches with Aoi and Masaya as seconds, Asuka wants to push herself and practice even more. As she might become a top Skywalker if she keeps it up, Masaya (CHOICE) decides to tell her about it to keep her motivated. He and Masaya also give advice to help the club members improve.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_rwUzey6oGg.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_rwUzey6oGg.webp" />
 
 Cutting to Shindou and Satouin, the latter recites the bit of "knowledge" about the origin of seaweed soup she learnt from Masaya. Shindou plainly tells her it's a load of nonsense, and Satouin vows to make Masaya pay for tricking her.
 ## Episode 6 - The Grand Finals And Aftermath
 
 It's finally time for the tournament. Aoi tells them to make sure not to get a heatstroke, as it can get you disqualified.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_TXrBdu5vZi.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_TXrBdu5vZi.webp" />
 
 Minori appears as they mention the word "journalist", and reveals the match will be broadcasted live on a local TV station, and also that she will be live commentating the final match.
 After that, they go check the brackets, and Mashiro finds herself facing against Satouin. Even worse, Misaki will be facing Rika, then Shindou if she wins. As for Asuka, her first opponent will be a freshman from Kairyou Academy. However, in the third round, she will have to face Misaki, Ichinose or Shindou. Lastly, Shion will face a sophomore from Kairyou. As Masaya is about to give a speech to his team, a mysterious player makes his appearance.
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_JRX2LUCtVm.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_JRX2LUCtVm.webp" />
 
 Shirase also shows up, seemingly knowing but hiding something about that mysterious player. He explains he's there to sell souvenirs like T-shirts, towels and beginner Grav Shoe kits at a stall. Masaya asks him to come watch their matches so he can give him advice on how to coach the girls. Arika shows up just after Shirase leaves, declaring war against Mashiro. She's soon joined by Mayu, who "scolds" her for being impolite towards Misaki.
 
 > holy say gex wtf is happening between those two
 
-<img src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_bsuSXFHbHz.webp" />
+<img class="illust" src="{DOC_ROOT}/static/img/notes/aokana/IMG-202403201649-Aokana_bsuSXFHbHz.webp" />
 
 After they leave, Madoka remembers her name and reveals Mayu is actually a very good player, even considered to be the main competition to Shindou.
 After a short speech by the tournament chair and a few fireworks, the tournament is finally starting. It's supposed to have a grand total of 64 matches, spread out over two days.
@@ -205,6 +208,8 @@ The match ends up being a battle of Speeders. Saki, with her beautiful form, sta
 After the match, as the girls are talking about Prez's performance, they get interrupted by the crowd's cheers. The masked skywalker, a player from Kamidorisha Academy is about to compete. Their name: "Mysterious Masked Skywalker". They ended up being pretty average, and even losing their match 4:5, leaving everyone confused.
 Soon, it's time for Mashiro's match.
 
-{THEMATIC_BREAK}
+<hr />
 
 Edit: it's now 2026 and I haven't touched the game in 2 years... I hope I can either resume it someday, or restart from the beginning except this time in Japanese.
+
+</div>

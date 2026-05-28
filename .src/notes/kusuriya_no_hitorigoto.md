@@ -1,8 +1,6 @@
 <!-- created 2025/01/21 -->
 <!-- updated 2025/01/26 -->
 
-{TOC}
-
 # Summary: Kusuriya no Hitorigoto
 
 Aliases:

@@ -1,21 +1,71 @@
 # Home
 
-## Welcome to Yayaka's website! Work in progress, please be patient<span class="DotAnim">.</span><span class="DotAnim" style="animation-delay:0.25s;">.</span><span class="DotAnim" style="animation-delay:0.5s">.</span>
+<div class="pad-row pad-col">
+	<div class="window">
+		<div class="window-title">About this website</div>
+			<div class="pad-col">
+				<p>Hey there!</p>
+				<p>I just finished reworking this website using <a href="https://github.com/microsounds/kagami">kagami</a>, a static microblog processor. I finally graduated from manually copy-pasting my headers and footers over a bunch of files!</p>
+				<p>Not sure quite yet what I'm going to put here, but I mainly wanted to make something that looks cool. I recently found a few dope personal websites and it inspired me to finally redesign mine. Although I'm a bit busy with studies and stuff, the plan is to keep working on it whenever I have free time.</p>
+				<p>Stay tuned~!</p>
+				<p><i>Oh and don't pay attention to the visitors counter, it's just from me refreshing the page a bunch while coding...</i></p>
+			</div>
+		</div>
+		<br />
+		<div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+			<div class="window">
+				<div class="window-title" id="last-fm-status">{LAST_FM_STATUS}</div>
+					<div class="pad-col">
+						<a id="last-fm-link" href="{LAST_FM_URL}" target="_blank" rel="noopener noreferrer">
+							<p id="last-fm-song" style="text-align: center;">{LAST_FM_SONG}</p>
+						</a>
+						<a id="last-fm-link" href="{LAST_FM_URL}" target="_blank" rel="noopener noreferrer">
+							<img id="last-fm-image" style="display: block; width: 100%; margin: 0;" src="{LAST_FM_IMAGE}" alt="album cover" />
+						</a>
+						<br />
+					</div>
+				</div>
+			<div class="grid">
+				<div class="window">
+					<div class="window-title">Visitors</div>
+					<center>
+					<p style="padding: 0 12px">
+						<a href="https://count.getloli.com/" target="_blank" rel="noopener noreferrer">
+							<img style="filter: brightness(1.4) contrast(1.5); max-width: 100%; max-height: 80px;" src="https://count.getloli.com/@yayaka?theme=booru-lisu" alt="moe counter" />
+						</a>
+					</p>
+					</center>
+				</div>
+				<div class="window">
+					<div class="window-title">Test</div>
+					<div class="pad-col">
+						<p>hello world</p>
+					</div>
+				</div>
+			</div>
+			<div class="window">
+				<div class="window-title">Credits</div>
+				<div class="pad-col">
+					<p style="margin-bottom: 7px;">Inspiration:</p>
+					<div class="grid" style="grid-template-rows: repeat(2, 1fr); gap: 7px;">
+						<a href="https://microsounds.github.io" target="_blank" rel="noopener noreferrer">
+							<img style="width: 100%; display: block;" src="https://microsounds.github.io/static/button/badge.gif" alt="https://microsounds.github.io/" />
+						</a>
+						<a href="https://kafu.ovh" target="_blank" rel="noopener noreferrer">
+							<img style="width: 100%; display: block;" src="https://kafu.ovh/imgs/buttons/junko.png" alt="https://kafu.ovh" />
+						</a>
+					</div>
+					<p style="margin: 7px;">
+						Cursor:
+						<a href="https://www.rw-designer.com/cursor-set/pink-flower-kawaii" target="_blank" rel="noopener noreferrer">
+							Orisnismy88
+						</a>
+					</p>
+					<p style="margin-top: 7px; line-height: 1.2em;">
+						Website built w/ <a href="https://github.com/microsounds/kagami" target="_blank" rel="noopener noreferrer">kagami</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-Hey there, I'm happy to see you!
-
-I just finished reworking this website using [kagami](https://github.com/microsounds/kagami). Gone are the times of multiple HTML pages with duplicated headers and footers, this is now a proper website! (kind of)
-
-I am not sure what to do with this website quite yet, but I want to turn it into something nice. I really love looking at the cool things people do with their personal websites and it inspires me to try and do the same. I've been really busy lately with my studies, but I hope to find some time here and there to work on this project.
-
-Stay tuned~!
-
-<img style="display: block; margin: auto; max-width: 60%;" src="{DOC_ROOT}/static/img/okayu_portrait.webp" alt="ogayu" />
-
-{THEMATIC_BREAK}
-
-<div style="display: flex; width: 100%; justify-content: flex-end; align-items: flex-end;">
-	<a href="https://count.getloli.com/">
-		<img style="filter: brightness(1.5); width: auto; margin: 0 0 0 auto; max-height: 80px;" src="https://count.getloli.com/@yayaka?theme=booru-lisu" alt="moe counter" />
-	</a>
-</div>

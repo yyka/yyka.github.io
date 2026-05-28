@@ -20,23 +20,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Source Code
+      - name: Checkout source code
         uses: actions/checkout@v6
 
-      - name: Install System Dependencies (cmark-gfm)
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+
+      - name: Install system dependencies (cmark-gfm)
         run: |
           sudo apt-get update
           sudo apt-get install -y cmark-gfm coreutils
 
-      - name: Install Kagami Compiler
-        run: |
-          curl -sSLo kagami https://raw.githubusercontent.com/microsounds/kagami/refs/heads/master/kagami
-          chmod +x kagami
+      - name: Fetch Last.fm data
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: node .scripts/fetch_now_playing.js
 
-      - name: Build website with Kagami
+      - name: Build website with kagami
         run: ./kagami
 
-      - name: Setup Pages
+      - name: Setup pages
         uses: actions/configure-pages@v6
 
       - name: Upload artifact

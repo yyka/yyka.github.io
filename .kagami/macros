@@ -3,10 +3,12 @@ unset DOC_ROOT
 YEAR="$(date '+%Y')"
 
 AUTHOR="Yayaka"
-SITE_TITLE="Yayaka's website"
+SITE_TITLE="yyk.fr"
 SITE_DESCRIPTION="Having fun with lines of code"
 SITE_HOSTNAME="https://yyk.fr"
 ACCENT_COLOR="#9873ba"
 
-SEPARATOR='<div style="height: 40px" ></div>'
-THEMATIC_BREAK='<hr style="width: 40%; margin: 30px 0 30px auto" />'
+# Last FM
+if [ -f .kagami/lastfm_macros ]; then
+    . .kagami/lastfm_macros
+fi

@@ -10,23 +10,25 @@
 		<link rel="alternate" type="application/rss+xml" href="{DOC_ROOT}/rss.xml" title="{SITE_TITLE}" />
 		<link rel="shortcut icon" type="image/x-icon" href="{DOC_ROOT}/static/img/icon.webp" />
 		<link rel="stylesheet" type="text/css" href="{DOC_ROOT}/static/styles.css" />
-		<script src="{DOC_ROOT}/static/scripts/darkmodetoggle.js"></script>
-		<title>{TITLE} - {SITE_TITLE}</title>
+		<script type="text/javascript" src="{DOC_ROOT}/static/scripts/dark-mode-toggle.js"></script>
+		<title>{TITLE} | {SITE_TITLE}</title>
 	</head>
 
-<body>
-	<div class="top-bar">
-		<div class="header">
-			<div class="home">
-				<a href="{DOC_ROOT}/index.htm">Yayaka's website</a>
-			</div>
-			<nav>
-				<a href="{DOC_ROOT}/notes/index.htm">Notes</a>
-				<a href="{DOC_ROOT}/videos.htm">Videos</a>
-				<a href="{DOC_ROOT}/translations.htm">TL</a>
-				<button type="button" class="dark-mode-button" id="dark-mode-button">Dark mode</button>
-			</nav>
-		</div>
-	</div>
+	<body>
+		<div class="page-container">
 
-	<div class="main-content">
+			<div class="window header">
+				<div class="home">
+					<a href="{DOC_ROOT}/index.htm">Yayaka</a>
+				</div>
+				<nav>
+					<a href="{DOC_ROOT}/notes/index.htm">Notes</a>
+					<a href="{DOC_ROOT}/videos.htm">Videos</a>
+					<a href="{DOC_ROOT}/translations.htm">Scans</a>
+					<button type="button" id="dark-mode-button">Dark mode</button>
+				</nav>
+			</div>
+
+			<div class="page-content">
+				<div class="main-content">
+					<div class="window">

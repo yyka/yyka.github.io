@@ -1,8 +1,6 @@
 <!-- created 2025/03/06 -->
 <!-- updated 2025/03/11 -->
 
-{TOC}
-
 # Summary: Mahou Shoujo ni Akogarete
 
 Aliases:

@@ -1,8 +1,6 @@
 <!-- created 2025/03/05 -->
 <!-- updated 2025/04/12 -->
 
-{TOC}
-
 # Summary: Itai no wa Iya nanode Bougyoryoku ni Kyokufuri Shitai to Omoimasu
 
 Aliases:
