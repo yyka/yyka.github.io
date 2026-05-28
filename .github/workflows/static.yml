@@ -22,9 +22,6 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          persist-credentials: true
 
       - name: Set up Node.js
         uses: actions/setup-node@v6
@@ -37,10 +34,7 @@ jobs:
       - name: Fetch Last.fm data
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
-        run: |
-          pwd
-          ls -la
-          node .scripts/fetch_now_playing.js
+        run: node .scripts/fetch_last_fm.js
 
       - name: Build website with kagami
         run: ./kagami
