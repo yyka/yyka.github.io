@@ -37,7 +37,10 @@ jobs:
       - name: Fetch Last.fm data
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
-        run: node .scripts/fetch_now_playing.js
+        run: |
+          pwd
+          ls -la
+          node .scripts/fetch_now_playing.js
 
       - name: Build website with kagami
         run: ./kagami
