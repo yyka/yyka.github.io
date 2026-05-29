@@ -62,7 +62,7 @@ body {
     font-size: var(--font-size);
     font-family: "NanumMyeongjo", "Times New Roman", serif;
 
-    padding: var(--padding) 4px;
+    padding: 6px;
     margin: auto;
     max-width: 960px;
     width: 100%;
