@@ -62,7 +62,7 @@ body {
     font-size: var(--font-size);
     font-family: "NanumMyeongjo", "Times New Roman", serif;
 
-    padding: var(--padding);
+    padding: var(--padding) 4px;
     margin: auto;
     max-width: 960px;
     width: 100%;
@@ -275,7 +275,7 @@ ul, ol {
     border: var(--border);
     border-bottom-left-radius: 10%;
     border-top-right-radius: 10%;
-    box-shadow: 10px 10px var(--surface-nested);
+    box-shadow: 6px 6px var(--surface-nested);
 }
 
 .pad-row {
@@ -309,6 +309,6 @@ ul, ol {
 
     nav > * {
         flex: 1;
-        padding: 16px 0;
+        padding: 16px 16px;
     }
 }
