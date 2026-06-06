@@ -128,6 +128,13 @@ img {
     display: block;
 }
 
+iframe {
+    display: block;
+    width:100%;
+    height: auto;
+    border: none;
+}
+
 button {
     background: transparent;
     border: none;
