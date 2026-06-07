@@ -39,6 +39,9 @@ jobs:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: node .scripts/fetch_last_fm.js
 
+      - name: Fetch Myanimelist data
+        run: node .scripts/fetch_myanimelist.js
+
       - name: Build website with kagami
         run: ./kagami
 
