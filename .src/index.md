@@ -14,33 +14,38 @@
 		<br />
 		<div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
 			<div class="window">
-				<div class="window-title" id="last-fm-status">{LAST_FM_STATUS}</div>
+				<div class="window-title">{MYANIMELIST_STATUS}</div>
 				<div class="pad-col">
-					<a id="last-fm-link" href="{LAST_FM_URL}" target="_blank" rel="noopener noreferrer">
-						<p id="last-fm-song" style="text-align: center;">{LAST_FM_SONG}</p>
+					<a href="{MYANIMELIST_URL}" target="_blank" rel="noopener noreferrer">
+						<p style="text-align: center; margin-bottom: 0px;">{MYANIMELIST_NAME}</p>
 					</a>
-					<a id="last-fm-link" href="{LAST_FM_URL}" target="_blank" rel="noopener noreferrer">
-						<img id="last-fm-image" style="display: block; width: 100%; margin: 0;" src="{LAST_FM_IMAGE}" alt="album cover" />
+					<p style="text-align: center; margin-top: 0px;">Episode: {MYANIMELIST_EPS_SEEN}/{MYANIMELIST_EPS_TOTAL}</p>
+					<a href="{MYANIMELIST_URL}" target="_blank" rel="noopener noreferrer">
+						<img style="display: block; width: 100%; margin: 0;" src="{MYANIMELIST_IMAGE}" alt="anime cover" />
 					</a>
 					<br />
 				</div>
 			</div>
 			<div class="grid">
 				<div class="window">
+					<div class="window-title">{LAST_FM_STATUS}</div>
+					<div class="pad-col">
+						<a href="{LAST_FM_URL}" target="_blank" rel="noopener noreferrer">
+							<p style="text-align: center;">{LAST_FM_SONG}</p>
+						</a>
+						<a href="{LAST_FM_URL}" target="_blank" rel="noopener noreferrer">
+							<img style="display: block; width: 100%; margin: 0;" src="{LAST_FM_IMAGE}" alt="album cover" />
+						</a>
+						<br />
+					</div>
+				</div>
+				<div class="window">
 					<div class="window-title">Visitors</div>
-					<center>
-					<p style="padding: 0 12px">
+					<p style="padding: 0 12px; text-align: center;">
 						<a href="https://count.getloli.com/" target="_blank" rel="noopener noreferrer">
 							<img style="filter: brightness(1.4) contrast(1.5); max-width: 100%; max-height: 80px;" src="https://count.getloli.com/@yayaka?theme=booru-lisu" alt="moe counter" />
 						</a>
 					</p>
-					</center>
-				</div>
-				<div class="window">
-					<div class="window-title">Test</div>
-					<div class="pad-col">
-						<p>hello world</p>
-					</div>
 				</div>
 			</div>
 			<div class="window">

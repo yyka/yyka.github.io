@@ -12,3 +12,8 @@ ACCENT_COLOR="#9873ba"
 if [ -f .kagami/lastfm_macros ]; then
     . .kagami/lastfm_macros
 fi
+
+# Myanimelist
+if [ -f .kagami/myanimelist_macros ]; then
+    . .kagami/myanimelist_macros
+fi
