@@ -14,12 +14,13 @@
 		<br />
 		<div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
 			<div class="window">
-				<div class="window-title">{MYANIMELIST_STATUS}</div>
+				<div class="window-title">Last MAL update</div>
 				<div class="pad-col">
 					<a href="{MYANIMELIST_URL}" target="_blank" rel="noopener noreferrer">
 						<p style="text-align: center; margin-bottom: 0px;">{MYANIMELIST_NAME}</p>
 					</a>
-					<p style="text-align: center; margin-top: 0px;">Episode: {MYANIMELIST_EPS_SEEN}/{MYANIMELIST_EPS_TOTAL}</p>
+					<p style="text-align: center; margin-top: 0px; margin-bottom: 0px;">Episode: {MYANIMELIST_EPS_SEEN}/{MYANIMELIST_EPS_TOTAL}</p>
+					<p style="text-align: center; margin-top: 0px;">Status: {MYANIMELIST_STATUS}</p>
 					<a href="{MYANIMELIST_URL}" target="_blank" rel="noopener noreferrer">
 						<img style="display: block; width: 100%; margin: 0;" src="{MYANIMELIST_IMAGE}" alt="anime cover" />
 					</a>
@@ -28,7 +29,7 @@
 			</div>
 			<div class="grid">
 				<div class="window">
-					<div class="window-title">{LAST_FM_STATUS}</div>
+					<div class="window-title">Last listened to</div>
 					<div class="pad-col">
 						<a href="{LAST_FM_URL}" target="_blank" rel="noopener noreferrer">
 							<p style="text-align: center;">{LAST_FM_SONG}</p>
