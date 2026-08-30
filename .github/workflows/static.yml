@@ -24,15 +24,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
 
-      - name: Install system dependencies (cmark-gfm)
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+
+      - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y cmark-gfm coreutils
+          python3 -m pip install requests PyGithub
 
       - name: Fetch Last.fm data
         env:
@@ -40,7 +46,13 @@ jobs:
         run: node .scripts/fetch_last_fm.js
 
       - name: Fetch Myanimelist data
-        run: node .scripts/fetch_myanimelist.js
+        env:
+          MAL_CLIENT_ID: ${{ secrets.MAL_CLIENT_ID }}
+          MAL_CLIENT_SECRET: ${{ secrets.MAL_CLIENT_SECRET }}
+          MAL_REFRESH_TOKEN: ${{ secrets.MAL_REFRESH_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 .scripts/fetch_myanimelist.py
 
       - name: Build website with kagami
         run: ./kagami
